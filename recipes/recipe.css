@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.recipe {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  background: bisque;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.recipe li {
+  list-style: none;
+}
